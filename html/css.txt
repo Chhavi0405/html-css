@@ -1,0 +1,21 @@
+10 advance css responsive  design concept
+
+1. viewport meta tag-
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+it manages the view of any page which shown in any device is it showed correct or not.
+
+2. media query orientation
+ eg.
+ .box{
+    background:purple;
+    width:200px;
+    height:200px
+ }
+
+ @media (orientation:potrait/landscape){
+    .box{
+        background:red
+    }
+ }
+
+ it changes according to its called
