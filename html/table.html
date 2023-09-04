@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        #superheroes{
+             font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+        }
+        #superheroes td, #superheroes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#superheroes tr:nth-child(even){background-color: #f2f2f2;}
+
+#superheroes tr:hover {background-color: #ddd;}
+
+#superheroes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:rgb(105, 3, 221);
+  color: white;
+}
+table,th,td{
+    border:inset;
+    width:30%;
+    text-align: center;
+    /* vertical-align: bottom; */
+}
+        /* h3{
+            text-align: center;
+        }
+        p{
+            text-align: left;
+        }
+        table,th,td{
+            border: 1px solid black;
+            text-align: center;
+            border-collapse: collapse;
+            border-radius: 10px;
+           
+        } */
+        /* th, td {
+  background-color: #96D4D4;
+  border-style:dotted;  
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden,
+border-color:blue;
+} */
+/* table{
+    width:100%
+}
+th{
+    width:30%
+}
+tr{
+    height:20px
+}
+tr:hover {background-color: #D6EEEE;} */
+    </style>
+</head>
+<body>
+    <h3>Table</h3>
+    <p>Simple Table</p>
+    <table id="superheroes">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Alpha</td>
+            <td>IronMan</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Beta</td>
+            <td>Captain Marvel</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Gamma</td>
+            <td>Thor</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Delta</td>
+            <td>Dr.strange</td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>Sigma</td>
+            <td>Captain America</td>
+        </tr>
+    </table>
+</body>
+</html>
